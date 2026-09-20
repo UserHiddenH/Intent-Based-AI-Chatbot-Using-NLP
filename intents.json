@@ -1,0 +1,292 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello", "hey", "hi", "good day", "greetings", "what's up", "how is it gokhgkjhging",
+        "yo", "sup", "hiya", "howdy", "good morning", "good afternoon", "good evening",
+        "hello there", "hi there", "good to see you", "hey there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hey! What can I do for you?",
+        "Hi there! Good to have you here.",
+        "Hey, what's up?",
+        "Yo! What can I help with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you", "see you later", "catch you later", "talk to you soon",
+        "farewell", "I have to go", "gotta go", "later", "peace out", "I am leaving now",
+        "take care", "have a good day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Take care, talk soon!",
+        "Bye! Come back anytime.",
+        "Catch you later!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "thank you so much", "thanks a lot", "much appreciated",
+        "I appreciate it", "cheers", "ty", "thx", "that's helpful, thanks",
+        "I am grateful for your help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime!",
+        "Happy to help.",
+        "No problem at all.",
+        "Glad I could assist you."
+      ]
+    },
+    {
+      "tag": "affirmative",
+      "patterns": [
+        "yes", "yeah", "yep", "sure", "of course", "absolutely", "correct", "that's right",
+        "indeed", "certainly", "affirmative", "yup", "for sure"
+      ],
+      "responses": [
+        "Great, let's continue.",
+        "Got it.",
+        "Perfect, noted.",
+        "Understood."
+      ]
+    },
+    {
+      "tag": "negative",
+      "patterns": [
+        "no", "nope", "not really", "I don't think so", "negative", "no thanks",
+        "not at all", "nah", "definitely not"
+      ],
+      "responses": [
+        "Alright, no problem.",
+        "Understood, let me know if that changes.",
+        "Okay, noted.",
+        "Got it, no worries."
+      ]
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "what is your name", "who are you", "what should I call you", "do you have a name",
+        "tell me about yourself", "what are you", "introduce yourself", "who am I talking to"
+      ],
+      "responses": [
+        "I'm a chatbot built to help answer your questions.",
+        "You can call me your virtual assistant.",
+        "I'm an AI assistant here to help you out.",
+        "I'm a bot designed to chat and assist you."
+      ]
+    },
+    {
+      "tag": "bot_capabilities",
+      "patterns": [
+        "what can you do", "how can you help me", "what are your functions",
+        "what do you know", "can you help me with something", "what services do you offer",
+        "list your features", "what is your purpose"
+      ],
+      "responses": [
+        "I can answer common questions, chat with you, and assist with basic requests.",
+        "I'm here to answer questions and have a conversation with you.",
+        "I can help with general questions, small talk, and simple tasks.",
+        "My purpose is to assist you with information and conversation."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you", "how are you doing", "how's it going", "how do you feel",
+        "are you okay", "how have you been", "what's new with you"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking! How about you?",
+        "All good on my end! How can I help you today?",
+        "I'm functioning perfectly, thank you.",
+        "Doing well! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "user_wellbeing_response",
+      "patterns": [
+        "I am fine", "I'm good", "doing well", "not bad", "I am okay", "pretty good",
+        "could be better", "I am great", "feeling good today"
+      ],
+      "responses": [
+        "Glad to hear that!",
+        "That's great!",
+        "Good to know, let me know if you need anything.",
+        "Awesome, how can I help you today?"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you", "what is your age", "when were you created",
+        "when were you made", "how long have you existed"
+      ],
+      "responses": [
+        "I don't have an age like a person does, I'm just a program.",
+        "Age doesn't really apply to me, I'm software!",
+        "I was created recently and I'm always being improved."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "what are your working hours", "when are you open", "what time do you open",
+        "what time do you close", "are you available now", "when can I contact you",
+        "what are your business hours"
+      ],
+      "responses": [
+        "I'm available 24/7, so feel free to ask anytime.",
+        "I don't have opening hours, I'm here whenever you need me.",
+        "You can reach me at any time, day or night."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help", "I need help", "can you help me", "help me please", "I need assistance",
+        "could you assist me", "I require support", "I'm stuck, help me out"
+      ],
+      "responses": [
+        "Of course, tell me what you need help with.",
+        "Sure, what do you need assistance with?",
+        "I'm here to help, please explain your issue.",
+        "Happy to assist, what's going on?"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "this isn't working", "you are not helpful", "that's wrong",
+        "you don't understand me", "this is frustrating", "I am not satisfied",
+        "this is a bad experience", "you made a mistake"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Could you tell me more so I can help fix it?",
+        "Apologies for the trouble, let's try to sort this out together.",
+        "I understand your frustration, let me try to help correct this.",
+        "Sorry about that, can you give me more details?"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "you are great", "you are so helpful", "good job", "well done", "I like you",
+        "you are smart", "nice work", "you're awesome", "you are amazing"
+      ],
+      "responses": [
+        "Thank you so much, that means a lot!",
+        "I appreciate the kind words!",
+        "Thanks, I'm glad I could help!",
+        "That's very kind of you, thank you!"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you are stupid", "you are useless", "you are dumb", "I hate you",
+        "you are a bad bot", "you are annoying", "shut up"
+      ],
+      "responses": [
+        "I'm sorry you feel that way, let's see how I can do better.",
+        "I apologize if I wasn't helpful, please tell me what went wrong.",
+        "I'll try to improve, could you clarify what you need?",
+        "Let's try again, how can I assist you properly?"
+      ]
+    },
+    {
+      "tag": "small_talk_weather",
+      "patterns": [
+        "how's the weather", "is it raining", "what's the weather like",
+        "is it sunny today", "will it rain today", "what's the temperature"
+      ],
+      "responses": [
+        "I don't have access to live weather data right now, but you could check a weather app.",
+        "I can't check the weather myself, but a quick search would help.",
+        "I'm not connected to real-time weather info at the moment."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "tell me a joke", "make me laugh", "do you know any jokes", "say something funny",
+        "got any jokes", "cheer me up"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my computer I needed a break, and it said no problem, it will go to sleep.",
+        "Why do programmers prefer dark mode? Because light attracts bugs.",
+        "Parallel lines have so much in common. It's a shame they'll never meet."
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "what do you like to do", "do you have hobbies", "what are your interests",
+        "what do you do for fun"
+      ],
+      "responses": [
+        "I enjoy chatting with people like you!",
+        "Helping answer questions is basically my favorite thing to do.",
+        "I don't have hobbies, but I love a good conversation."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where are you located", "where do you live", "where are you from",
+        "what is your location"
+      ],
+      "responses": [
+        "I exist digitally, so I don't have a physical location.",
+        "I live in the cloud, quite literally.",
+        "I'm not located anywhere specific, I run on servers."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "how can I contact support", "how do I reach a human", "can I talk to a real person",
+        "is there customer service", "connect me to an agent"
+      ],
+      "responses": [
+        "I can try to help directly, but if you need a human, please check the support contact section.",
+        "Let me know your issue and I'll try to help, or I can point you toward human support.",
+        "I'll do my best to assist, though a live agent may be available through official support channels."
+      ]
+    },
+    {
+      "tag": "apology",
+      "patterns": [
+        "sorry", "my apologies", "I apologize", "my bad", "excuse me for that",
+        "I didn't mean that"
+      ],
+      "responses": [
+        "No worries at all!",
+        "It's all good, no need to apologize.",
+        "That's alright, let's move forward.",
+        "No problem, don't worry about it."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "asdkfjasdf", "I don't know what to say", "random gibberish", "blah blah blah"
+      ],
+      "responses": [
+        "I'm sorry, I didn't quite understand that. Could you rephrase?",
+        "Could you clarify what you mean?",
+        "I'm not sure I follow, can you try again?",
+        "Sorry, I didn't get that, could you say it differently?"
+      ]
+    }
+  ]
+}
