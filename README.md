@@ -1,4 +1,5 @@
 # Intent-Based AI Chatbot (NLTK + Neural Network)
+(in progress...)
 ### (with a custom JSON intents dataset)
 
 ## Overview
