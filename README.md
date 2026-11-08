@@ -109,8 +109,8 @@ The same preprocessing is applied to user messages at runtime, so training and i
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/UserHiddenH/Intent-Based-AI-Chatbot-Using-NLP.git
+   cd Intent-Based-AI-Chatbot-Using-NLP
    ```
 
 2. (Recommended) Create and activate a virtual environment:
